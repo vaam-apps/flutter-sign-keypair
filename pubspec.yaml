@@ -1,0 +1,36 @@
+name: flutter_sign_keypair
+description: >-
+  Hardware-backed ECDSA P-256 (ES256) signing for device-bound authentication.
+  Keys are generated inside AndroidKeyStore / the Apple Secure Enclave and
+  never leave it; a pure-Dart software signer is used as an explicit,
+  self-declaring fallback on platforms without native support.
+version: 0.1.0
+publish_to: 'none'
+repository: https://github.com/vaam-apps/flutter-sign-keypair
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  # Software fallback signer (web + any platform without a native impl).
+  pointycastle: ^4.0.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.vaam.flutter_sign_keypair
+        pluginClass: FlutterSignKeypairPlugin
+      ios:
+        pluginClass: FlutterSignKeypairPlugin
+      macos:
+        pluginClass: FlutterSignKeypairPlugin
