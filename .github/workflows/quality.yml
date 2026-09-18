@@ -95,3 +95,6 @@ jobs:
     with:
       scanners: "vuln,secret,misconfig"
       upload-sarif: true
+    secrets:
+      app-client-id: ${{ secrets.RELEASE_PLEASE_APP_CLIENT_ID }}
+      app-private-key: ${{ secrets.RELEASE_PLEASE_APP_PRIVATE_KEY }}
