@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_sign_keypair'
-  s.version          = '0.1.0'
+  s.version          = '0.1.0' # x-release-please-version
   s.summary          = 'Hardware-backed ES256 signing for device-bound authentication.'
   s.description      = <<-DESC
 Generates and uses an EC P-256 key inside the Secure Enclave (or the
