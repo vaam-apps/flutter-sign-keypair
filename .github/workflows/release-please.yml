@@ -89,6 +89,17 @@ jobs:
           # is named for the one this input actually wants.
           client-id: ${{ secrets.RELEASE_PLEASE_APP_CLIENT_ID }}
           private-key: ${{ secrets.RELEASE_PLEASE_APP_PRIVATE_KEY }}
+          # No `owner`/`repositories` input: per the action's own README,
+          # omitting both scopes the token to only the current repository —
+          # the narrowest repo scope available, not the App's whole
+          # installation. Permissions are scoped down explicitly too
+          # (zizmor's `github-app` audit, "dangerous use of GitHub App
+          # tokens": by default this action issues a token carrying every
+          # permission the App holds org-wide, not just what this workflow
+          # uses) to exactly the two this job performs: opening/updating a
+          # branch and PR.
+          permission-contents: write
+          permission-pull-requests: write
 
       - name: Open or update the release PR
         id: release
