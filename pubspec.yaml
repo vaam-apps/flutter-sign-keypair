@@ -4,7 +4,7 @@ description: >-
   Keys are generated inside AndroidKeyStore / the Apple Secure Enclave and
   never leave it; a pure-Dart software signer is used as an explicit,
   self-declaring fallback on platforms without native support.
-version: 0.1.0
+version: 0.1.1
 publish_to: 'none'
 repository: https://github.com/vaam-apps/flutter-sign-keypair
 
