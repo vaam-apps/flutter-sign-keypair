@@ -3,8 +3,7 @@
   "separate-pull-requests": false,
   "packages": {
     ".": {
-      "release-type": "dart",
-      "component": "",
+      "release-type": "simple",
       "changelog-path": "CHANGELOG.md",
       "include-component-in-tag": false,
       "include-v-in-tag": true,
@@ -69,6 +68,10 @@
         {
           "type": "generic",
           "path": "macos/flutter_sign_keypair.podspec"
+        },
+        {
+          "type": "generic",
+          "path": "pubspec.yaml"
         }
       ]
     }
