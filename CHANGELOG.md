@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.2](https://github.com/vaam-apps/flutter-sign-keypair/compare/v0.1.1...v0.1.2) (2026-09-19)
+
+
+### Bug Fixes
+
+* **release:** set an empty component so the merged release PR can be tagged ([aaecd0a](https://github.com/vaam-apps/flutter-sign-keypair/commit/aaecd0a41a93cd6c533905d6b3a3d1215a593345))
+* **release:** use release-type simple so the merged release PR gets tagged ([b6577ab](https://github.com/vaam-apps/flutter-sign-keypair/commit/b6577ab0d0754dc59b522115aec037d53c85e4e0))
+* **release:** use release-type simple so the merged release PR gets tagged ([c2487d5](https://github.com/vaam-apps/flutter-sign-keypair/commit/c2487d5a2784a9ceb0bfc8baf215a24985f4a45f))
+
 ## [0.1.1](https://github.com/vaam-apps/flutter-sign-keypair/compare/v0.1.0...v0.1.1) (2026-09-19)
 
 
