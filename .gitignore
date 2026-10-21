@@ -31,3 +31,8 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 /build/
 /coverage/
+
+# VitePress docs site (docs/)
+node_modules/
+docs/.vitepress/dist
+docs/.vitepress/cache
