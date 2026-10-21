@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/vaam-apps/flutter-sign-keypair/compare/v0.1.2...v0.1.3) (2026-10-21)
+
+
+### Documentation
+
+* add a VitePress documentation site with the Material 3 theme ([#6](https://github.com/vaam-apps/flutter-sign-keypair/issues/6)) ([d1ec226](https://github.com/vaam-apps/flutter-sign-keypair/commit/d1ec226d2c0e4fee1dd4f953adb1afee1fda512f))
+
 ## [0.1.2](https://github.com/vaam-apps/flutter-sign-keypair/compare/v0.1.1...v0.1.2) (2026-09-19)
 
 
